@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rémy Miquel — Portfolio Cybersécurité</title>
+  <meta name="description" content="Portfolio cybersécurité de Rémy Miquel : pentest lab, sécurité web, analyse phishing, Linux, réseau et rapports techniques." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Rémy Miquel</h1>
+      <p class="subtitle">Cybersécurité junior · Stage 350h dès septembre 2026</p>
+      <p class="tagline">
+        En formation Fullstack Cybersécurité chez Jedha (RNCP niveau 6 — Administrateur d'infrastructures sécurisées),
+        je documente mes projets pratiques : pentest en lab autorisé, sécurité web,
+        analyse phishing, durcissement Linux et bases réseau.
+      </p>
+      <div class="actions">
+        <a href="assets/cv.pdf" class="button">Télécharger mon CV</a>
+        <a href="https://github.com/Deagant" class="button secondary">GitHub</a>
+        <a href="#" class="button secondary">LinkedIn [À compléter]</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section id="profil">
+      <h2>Profil</h2>
+      <p>
+        Je prépare le titre RNCP niveau 6 d'Administrateur d'infrastructures sécurisées
+        avec une approche pratique orientée labs, analyse de vulnérabilités,
+        documentation technique et remédiation.
+        Disponible pour un stage de 350h dès septembre 2026, puis un poste junior.
+      </p>
+    </section>
+
+    <section id="objectif">
+      <h2>Objectif professionnel</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Stage 350h</h3>
+          <p>Intégrer une équipe IT/cyber dès septembre 2026, consolider la pratique terrain
+          et contribuer à des missions encadrées de sécurité systèmes, réseau ou applicative.</p>
+        </article>
+        <article class="card">
+          <h3>Cibles visées</h3>
+          <ul>
+            <li>SOC junior · analyse d'incidents</li>
+            <li>Support infrastructure sécurisée</li>
+            <li>Administration systèmes/réseaux junior</li>
+            <li>Pentest encadré</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="formation">
+      <h2>Formation</h2>
+      <article class="card">
+        <h3>Jedha Bootcamp — Fullstack Cybersécurité</h3>
+        <p><strong>RNCP niveau 6 · Administrateur d'infrastructures sécurisées</strong></p>
+        <p class="meta">2025 — 12 août 2026 · Essential terminé avec attestation · Fullstack en cours</p>
+        <p>
+          Sécurité systèmes/réseaux, pentest web et infrastructure, protocoles réseau,
+          Linux, méthodologie de test, documentation technique, rapport de vulnérabilités
+          et propositions de remédiation.
+        </p>
+      </article>
+    </section>
+
+    <section id="competences">
+      <h2>Compétences</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Systèmes &amp; Réseau</h3>
+          <ul>
+            <li>Linux (Kali, Ubuntu) · Bash</li>
+            <li>TCP/IP · DNS · HTTP · SSH · FTP · SMB</li>
+            <li>Subnetting · services réseau</li>
+            <li>Permissions Linux</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Sécurité offensive en lab</h3>
+          <ul>
+            <li>Reconnaissance · Énumération</li>
+            <li>SQLi · XSS stockée · SSTI</li>
+            <li>Brute force encadré</li>
+            <li>PrivEsc Linux — SUID, cron, sudoers</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Sécurité défensive</h3>
+          <ul>
+            <li>Analyse de logs Apache</li>
+            <li>Analyse phishing</li>
+            <li>Durcissement PostgreSQL</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Outils</h3>
+          <ul>
+            <li>Nmap · Nikto · Burp Suite</li>
+            <li>Hydra · GTFOBins</li>
+            <li>Python · Git · GitHub</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projets">
+      <h2>Projets</h2>
+
+      <article class="card project-card">
+        <div class="project-header">
+          <h3>Rapport de pentest lab</h3>
+          <span class="badge badge-red">Offensif</span>
+        </div>
+        <p>
+          Audit lab EvilCorp — 10 vulnérabilités, équipe de 4, mai 2026.
+          SQLi, XSS stockée, FTP anonyme, brute force SSH encadré, PrivEsc Linux, CVE-2021-3156.
+          Rapport structuré PTES/CVSS 3.1 avec preuves, risques et remédiations.
+        </p>
+        <a href="https://github.com/Deagant/pentest-lab-report-portfolio">Voir le projet →</a>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-header">
+          <h3>Phishing Analysis Lab</h3>
+          <span class="badge badge-blue">Blue Team</span>
+        </div>
+        <p>
+          Analyse d'emails suspects : expéditeur, headers, IP d'origine,
+          SPF/DKIM/DMARC, pièces jointes, liens, indices de fraude,
+          verdict et recommandations.
+        </p>
+        <a href="https://github.com/Deagant/phishing-analysis-lab">Voir le projet →</a>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-header">
+          <h3>PostgreSQL Security Hardening</h3>
+          <span class="badge badge-green">Durcissement</span>
+        </div>
+        <p>
+          Correction de droits excessifs en base PostgreSQL : rôles, privilèges,
+          révocation d'accès dangereux, chiffrement des mots de passe,
+          principe du moindre privilège.
+        </p>
+        <a href="https://github.com/Deagant/postgres-security-hardening">Voir le projet →</a>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-header">
+          <h3>Web Vulnerabilities Labs</h3>
+          <span class="badge badge-red">Offensif</span>
+        </div>
+        <p>
+          Fiches techniques sur les vulnérabilités web en lab autorisé :
+          XSS réfléchie, SSTI, SQLi, Command Injection.
+          Pour chaque fiche : mécanisme, impact, validation en lab, remédiation.
+        </p>
+        <a href="https://github.com/Deagant/web-vulnerabilities-labs">Voir le projet →</a>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-header">
+          <h3>Blue Team Tools</h3>
+          <span class="badge badge-blue">Blue Team</span>
+        </div>
+        <p>
+          Analyseur de logs Apache en Python : détection XSS, SQLi,
+          Path Traversal et brute-force/scan par IP.
+          Rapport consolidé avec identification des attaques potentiellement réussies.
+        </p>
+        <a href="https://github.com/Deagant/blue-team-tools">Voir le projet →</a>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-header">
+          <h3>Linux PrivEsc Notes</h3>
+          <span class="badge badge-green">Durcissement</span>
+        </div>
+        <p>
+          Notes SUID/SGID, mauvaise configuration sudo, cronjobs, permissions Linux.
+          Erreurs de configuration + mesures de durcissement associées.
+        </p>
+        <a href="https://github.com/Deagant/linux-privesc-notes">Voir le projet →</a>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-header">
+          <h3>OSINT CTF Methodology</h3>
+          <span class="badge badge-yellow">Investigation</span>
+        </div>
+        <p>
+          Méthodologie personnelle pour les challenges OSINT :
+          outils, reverse image search, géolocalisation, EXIF,
+          documentation et modèles de prise de notes.
+        </p>
+        <a href="https://github.com/Deagant/osint-ctf-methodology">Voir le projet →</a>
+      </article>
+
+    </section>
+
+    <section id="plateformes">
+      <h2>Plateformes d'entraînement</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Root-Me</h3>
+          <p>210 pts · 23 challenges</p>
+        </article>
+        <article class="card">
+          <h3>TryHackMe</h3>
+          <p>Attestation THM-3NYCCZUKXU</p>
+        </article>
+        <article class="card">
+          <h3>Hack The Box</h3>
+          <p>3 flags · 1 CTF</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>GitHub : <a href="https://github.com/Deagant">github.com/Deagant</a></p>
+      <p>LinkedIn : <a href="#">[À compléter]</a></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© Rémy Miquel · Portfolio cybersécurité ·
+      <a href="https://github.com/Deagant">github.com/Deagant</a>
+    </p>
+  </footer>
+
+</body>
+</html>
